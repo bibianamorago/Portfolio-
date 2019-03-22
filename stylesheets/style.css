@@ -1,0 +1,315 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/backgroundHome.png");
+  font-family: 'Montserrat', sans-serif, 'Merriweather', serif;
+  text-align: left;
+  overflow-x: hidden;
+  width: 100%;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d8d8d869;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.2s linear;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 149px;
+}
+
+.nav-logo{
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  z-index: 999;
+  margin-left: 149px;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+.nav-logo a{
+  text-decoration: none;
+}
+
+.nav-logo a:visited{
+  text-decoration: none;
+  color: #000718;
+}
+
+.solid-nav{
+  background-color: #f1f1f1;
+}
+
+.menu {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+  text-decoration: none;
+  display: inline-block;
+  width: 112px
+}
+
+section {
+  margin-top: 80px;
+  margin-left: 149px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8d8d81f;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+}
+
+.aboutme{
+  margin-left: 149px;
+  margin-right: 149px;
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+.button {
+  margin-bottom: 80px;
+  background-color: #000e31e8;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  top: 40px;
+  position: relative;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+}
+
+.separador {
+  width: 80%;
+  border: 1px solid #9c9d9d80;
+  margin-top: 104px;
+  margin-bottom: 80px;
+}
+
+.projects {
+  margin-left: 72px;
+}
+
+.item-list{
+  margin-right: 20px;
+  transition-duration: 300s;
+}
+
+.footer {
+  text-decoration: none;
+}
+
+.product {
+  background-color: #000718bd;
+  color: #ffffff;
+  padding: 20px;
+  width: 160px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 149px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Title {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -70px;
+  width: 140px;
+}
+
+.projectimge {
+  width: 458px;
+  height: 737px;
+}
+
+.methods_tools {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 149px;
+  margin-right: 149px;
+}
+
+.meethods {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 149px;
+  margin-right: 149px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.email{
+  text-decoration: none;
+  color: #1E2434;
+}
+
+#ironhack {
+  width: 60px;
+}
+
+#EURM{
+  width: 300px;
+}
+
+#PUJ{
+  width: 100px;
+}
+
+#Sketch {
+  width: 50px;
+}
+
+#Flinto {
+  width: 50px;
+}
+
+#InVision {
+  width: 100px;
+}
+
+#ganalytics {
+  width: 50px;
+}
+
+#hootsuite {
+  width: 100px;
+}
+
+#brand24 {
+  width: 100px;
+}
+
+#html {
+  width: 50px;
+}
+
+#css {
+  width: 50px;
+}
+
+#moveme {
+  width: 100px;
+}
+
+#popingroup {
+  width: 100px;
+}
+
+#gmorningsports {
+  width: 100px;
+}
+
+#adecco {
+  width: 100px;
+}
+
+#Instagram {
+  width: 20px;
+}
+
+#linkedin {
+  width: 20px;
+}
+
+#behance {
+  width: 20px;
+}
+
+#Medium {
+  width: 20px;
+}

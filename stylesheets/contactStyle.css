@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/backgroundHome.png");
+  font-family: 'Montserrat', sans-serif, 'Merriweather', serif;
+  text-align: left;
+  overflow-x: hidden;
+  width: 100%;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: #1E2434;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d8d8d869;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.2s linear;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 149px;
+}
+
+.nav-logo{
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1E2434;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  z-index: 999;
+  margin-left: 149px;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+.nav-logo a{
+  text-decoration: none;
+}
+
+.nav-logo a:visited{
+  text-decoration: none;
+  color: #000718;
+}
+
+.solid-nav{
+  background-color: #f1f1f1;
+}
+
+.menu {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2434;
+  text-decoration: none;
+  display: inline-block;
+  width: 112px
+}
+
+section {
+  margin-top: 300px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+}
+
+.socialmedia {
+  margin-top: 40px;
+}
+
+.footer {
+  text-decoration: none;
+}
+
+#Instagram {
+  width:80px;
+  padding: 10px;
+}
+
+#linkedin {
+  width: 80px;
+  padding: 10px;
+}
+
+#behance {
+  width: 80px;
+  padding: 10px;
+}
+
+#Medium {
+  width: 80px;
+  padding: 10px;
+}
+
+#Correo {
+  width: 80px;
+  padding: 10px;
+}
